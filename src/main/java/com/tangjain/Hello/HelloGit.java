@@ -7,8 +7,12 @@ package com.tangjain.Hello;
  */
 public class HelloGit {
 
-    public void show(){
+    static public void show(){
         System.out.println("HelloGit");
+    }
+
+    public static void main(String[] args) {
+        show();
     }
 
 }
