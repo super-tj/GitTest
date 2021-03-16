@@ -7,12 +7,16 @@ package com.tangjain.Hello;
  */
 public class HelloGit {
 
-    static public void show(){
-        System.out.println("HelloGit");
+    public String show(){
+        return "HelloGit";
     }
 
+    public int add(int x, int y){
+        return (x+y);
+    }
     public static void main(String[] args) {
-        show();
+        HelloGit helloGit = new HelloGit();
+        System.out.println(helloGit.show());
     }
 
 }
